@@ -76,3 +76,23 @@ let pattern = /^\+55\(\d{2}\)\d{4,5}\-\d{4}$/;
 
 let numero = 'abobora'
 console.log(Number(numero))
+
+
+//lacos
+
+for (let i = 0; i < 10; i++ ){
+    console.log('contagem', i)
+}
+
+let contadorW =  0
+while (contadorW < 5){
+    console.log('Contagem', contadorW)
+    contadorW++
+}
+
+let contadorDW = 5
+do {
+    console.log(contadorDW)
+    contadorDW --
+}
+while (numero > 0)
